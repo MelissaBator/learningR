@@ -60,6 +60,12 @@ tail(gapminder, n=12) #previews last 12 lines
 #preview the middle
 gapminder[850:870,]  #gapminder[parameters of columns to view,]
 
+#save R script: git add, commit, pull, push
+
+#explain everything that str(gapminder) prints out
+#data dimensions, each column's info (data type, first few entries in each column)
+str(gapminder)
+
 
 
 
